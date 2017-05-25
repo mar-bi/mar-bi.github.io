@@ -1,0 +1,168 @@
+body {
+  background: #333333 url("../img/bg_golden.jpg");
+  padding-top: 70px;
+  font-family: Helvetica, sans-serif;
+  }
+
+/* JUMBO BLOCK */
+ #jumbotron {
+  background: #ffbdbd;
+  background: radial-gradient(#ffbdbd, #d7c6cf);
+  background: url("../img/floral1200.jpg") no-repeat;
+ 	background-size: cover;  
+ 	padding-top: 16%;
+ 	padding-bottom: 20%;
+  margin-bottom: 1em;
+ }
+
+h1#author-name {
+	font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 6.5em;
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+}
+
+#glyphicon-jumbo {
+  margin-right: 0.5em;
+}
+
+
+.social-buttons1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a.social img:hover {
+  -webkit-filter: opacity(50%); /* Safari */
+  filter: opacity(50%);
+}
+
+/* genaral style for all sections */
+.section-main {
+  margin-top: 1rem;
+	margin-bottom: 1.2rem;
+  border-radius: 2%;
+	padding-top: 0rem;
+	padding-bottom: 1rem;
+}
+
+h2.heading {
+  font: bold 3em/1.4 'Annie Use Your Telescope', cursive;
+}
+
+/* ABOUT ME BLOCK */ 
+#info-about {
+	background: #faf0e6;
+	border: 1px solid #faebd7;
+  padding-top: 1.2rem;
+	}
+
+div #my-photo {
+	margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+  
+#author-photo {
+	width: 80%;
+  max-width: 350px;
+  margin: auto;
+}
+
+#main-text {
+  padding-top: 1em;
+	font-size: 128.57%;
+  line-height: 1.5;
+}
+
+/* icons style */
+.prog-icon {
+	width: 40px;
+}
+
+#icon-block {
+  width:175px;
+  margin: 1em auto;
+}
+
+
+/* PORTFOLIO BLOCK */
+#portfolio {
+	background: #d1cace;
+	border: 1px solid #d1cace;
+	}
+
+h3.proj-heading {
+  font-size: 1.8em;
+  font-weight: 600;
+  color:#fff;
+  margin-bottom: 20px;
+}
+
+div.thumbnail {
+  height: 350px;
+}
+
+iframe {
+  width: 100%;
+  height: 250px;
+}
+
+a.page-preview {
+  display: block;
+  height: 170px;
+}
+
+a.page-preview img {
+  max-height: 170px;
+}
+
+a.go-page {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.thumbnail:hover {
+  filter: brightness(75%);
+}
+
+.caption h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+/* GET IN TOUCH BLOCK */
+#contacts {
+	background: #faf0e6;
+	border: 1px solid #faf0e6;
+}
+
+.contact-info{
+  font-size: 1.2em;
+}
+
+
+/* FOOTER */
+#footer-main {
+  background-color: #333;
+}
+
+#footer-text {
+	color: #9d9d9d;
+  font-weight: bold;
+}
+
+footer p {
+  padding: 1em 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width:530px) and (max-width: 767px) {
+  div.thumbnail, a.thumbnail {
+    width: 65%;
+    margin: 1em auto;
+  }
+}
