@@ -4,6 +4,10 @@ body {
   font-family: Helvetica, sans-serif;
   }
 
+a {
+  color: #30729c;
+}  
+
 /* JUMBO BLOCK */
  #jumbotron {
   background: #ffbdbd;
@@ -103,7 +107,7 @@ div #my-photo {
 /* PORTFOLIO BLOCK */
 .portfolio {
   height: auto;
-	background: rgba(215, 208, 204, 0.8);
+ 	background: rgba(215, 208, 204, 0.8);
 	border: 1px solid #d1cace;
   padding: 8px;
 }
@@ -134,7 +138,7 @@ a.thumbnail {
 }
 
 div.thumbnail {
-  height: 480px;
+  height: 490px;
   background-color: #f4f7fa;
 }
 
@@ -164,8 +168,8 @@ a.go-page {
 }
 
 .caption h3 {
-  margin-top: 10px;
-  font-size: 1.5em;
+  margin: 8px 0;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -183,6 +187,9 @@ a.go-page {
   line-height: 1.5;
 }
 
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: rgba(215, 208, 204, 0.5);
+}
 
 
 /* GET IN TOUCH BLOCK */
@@ -396,7 +403,12 @@ canvas {
     width: 125px;
     height: 125px;
   }
+
+  .nav-tabs > li > a {
+    font-size: 0.9em;
+  }
 }
 
-
-
+#industrial {
+  min-height: 703px;
+}
