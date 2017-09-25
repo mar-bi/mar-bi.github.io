@@ -5,7 +5,11 @@ body {
   }
 
 a {
-  color: #30729c;
+  color: #e57c22;
+}
+
+a:focus, a:hover {
+    color: #228be5;
 }  
 
 /* JUMBO BLOCK */
@@ -53,6 +57,7 @@ a.social img:hover {
 
 h2.heading {
   font: bold 3em/1.4 'Annie Use Your Telescope', cursive;
+  padding: 0, 8px; 
 }
 
 /* ABOUT ME BLOCK */ 
@@ -93,12 +98,14 @@ div #my-photo {
 }
 
 .info-links {
-  margin-top: 15px
+  margin-top: 5px;
+  padding: 0;
 }
 
 .info-links a {
   display: block;
-  margin: 10px auto;
+  margin: 8px auto;
+  padding: 0; 
   font-size: 1.2em;
   text-decoration: underline;
 }
@@ -128,7 +135,7 @@ div #my-photo {
 h3.proj-heading {
   font-size: 1.8em;
   font-weight: 600;
-  color: #30729c;
+  color: #e57c22;
   margin-bottom: 30px;
   text-decoration: underline;
 }
@@ -189,6 +196,7 @@ a.go-page {
 
 .nav > li > a:focus, .nav > li > a:hover {
   background-color: rgba(215, 208, 204, 0.5);
+  color: #228be5;
 }
 
 
@@ -272,6 +280,11 @@ footer img {
 .progress-row {
   width: 85%;
 }
+
+div.progress-row:last-child {
+  margin-bottom: 1em;
+}
+
 .progress-item {
   display: inline-block;
   width: 30%;
@@ -316,6 +329,7 @@ canvas {
   margin: 10px auto;
 }
 
+
 @media screen and (min-width:768px) and (max-width: 1024px) {
   .progress-row {
     width: 95%;
@@ -331,7 +345,6 @@ canvas {
     box-shadow: none;
   }
 }
-
 
 
 @media screen and (min-width:768px) and (max-width: 980px) {
@@ -362,6 +375,7 @@ canvas {
 
   .info-links a {
     margin: 5px auto;
+    font-size: 1.125em;
   }
 
   div.thumbnail {
@@ -387,9 +401,12 @@ canvas {
     width: 98%;
   }
 
+  
   .progress-row {
     width: 100%;
   }
+  
+
   .progress-item {
     width: 30%;
   }
@@ -411,4 +428,21 @@ canvas {
 
 #industrial {
   min-height: 703px;
+}
+
+h3.d3-viz {
+  margin-bottom: 1em;
+}
+
+.proj-viz {
+  color: #228be5;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+div.thumb-viz {
+  height: auto;
+  padding: 10px;
 }
