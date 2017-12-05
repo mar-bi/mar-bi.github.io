@@ -10,14 +10,18 @@ a {
 
 a:focus, a:hover {
     color: #228be5;
-}  
+}
+
+.header-title {
+  text-transform: capitalize;
+}
 
 /* JUMBO BLOCK */
  #jumbotron {
   background: #ffbdbd;
   background: radial-gradient(#ffbdbd, #d7c6cf);
   background: url("../img/floral1200.jpg") no-repeat;
- 	background-size: cover;  
+ 	background-size: cover;
  	padding-top: 16%;
  	padding-bottom: 20%;
   margin-bottom: 1em;
@@ -35,6 +39,9 @@ h1#author-name {
   margin-right: 0.5em;
 }
 
+.jumbo-title {
+  text-transform: uppercase;
+}
 
 .social-buttons1 {
   margin: 0 auto;
@@ -57,10 +64,10 @@ a.social img:hover {
 
 h2.heading {
   font: bold 3em/1.4 'Annie Use Your Telescope', cursive;
-  padding: 0, 8px; 
+  padding: 0, 8px;
 }
 
-/* ABOUT ME BLOCK */ 
+/* ABOUT ME BLOCK */
 #info-about, #contacts {
 	background: rgba(250, 240, 230, 0.8);
 	border: 1px solid #faebd7;
@@ -74,7 +81,7 @@ div #my-photo {
 	margin-top: 1.5em;
   margin-bottom: 1em;
 }
-  
+
 #author-photo {
 	width: 80%;
   max-width: 350px;
@@ -85,6 +92,13 @@ div #my-photo {
   padding-top: 1em;
 	font-size: 128.57%;
   line-height: 1.5;
+}
+
+.keywords {
+  font-weight: 600;
+}
+.languages {
+  font-style: italic;
 }
 
 /* icons style */
@@ -105,7 +119,7 @@ div #my-photo {
 .info-links a {
   display: block;
   margin: 8px auto;
-  padding: 0; 
+  padding: 0;
   font-size: 1.2em;
   text-decoration: underline;
 }
@@ -349,7 +363,7 @@ canvas {
 
 @media screen and (min-width:768px) and (max-width: 980px) {
   div.thumbnail {
-    height: 490px;
+    height: 520px;
   }
 }
 
@@ -401,11 +415,11 @@ canvas {
     width: 98%;
   }
 
-  
+
   .progress-row {
     width: 100%;
   }
-  
+
 
   .progress-item {
     width: 30%;
@@ -422,7 +436,11 @@ canvas {
   }
 
   .nav-tabs > li > a {
-    font-size: 0.9em;
+    font-size: 1em;
+  }
+
+  div.thumb-micro{
+    height: auto;
   }
 }
 
@@ -434,7 +452,7 @@ h3.d3-viz {
   margin-bottom: 1em;
 }
 
-.proj-viz {
+.proj-viz, .proj-micro {
   color: #228be5;
   font-size: 1.5em;
   font-style: italic;
@@ -445,4 +463,12 @@ h3.d3-viz {
 div.thumb-viz {
   height: auto;
   padding: 10px;
+}
+
+div.thumb-micro{
+  height: 380px;
+}
+
+.proj-micro {
+  padding: 0 8px;
 }

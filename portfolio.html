@@ -37,24 +37,29 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#nav-bar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html#home">mar-bi</a>
-          <p class="navbar-text">Front-end web-developer</p>
+          <p class="navbar-text">
+            <span class="header-title"><strong>mern</strong> stack
+              <strong>web developer</strong></span>
+          </p>
         </div>
         <div class="navbar-collapse collapse" id="nav-bar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#info-about">About me</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="cv.html">CV</a></li>
             <li><a href="index.html#contacts">Get in Touch</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div> 
+      </div>
     </nav>
   </header>
 
@@ -67,18 +72,18 @@
 					  <li><a href="index.html">Home</a></li>
 					  <li class="active">Portfolio</li>
 					</ol>
-		      
+
 				  <ul class="nav nav-tabs">
 					  <li class="active"><a data-toggle="tab" href="#frontend">Front-End projects</a></li>
 					  <li><a data-toggle="tab" href="#react">React projects</a></li>
 					  <li><a data-toggle="tab" href="#d3">D3 projects</a></li>
-					  <li><a data-toggle="tab" href="#industrial">Industrial projects</a></li>
-
+					  <li><a data-toggle="tab" href="#microservices">Microservices</a></li>
+            <li><a data-toggle="tab" href="#industrial">Industrial projects</a></li>
 					</ul>
 
 		    </div>
 		  </div>
-			
+
 			<div class="tab-content">
 				<div id="frontend" class="row tab-pane fade in active">
 		      <div class="col-xs-12">
@@ -89,84 +94,104 @@
 		        	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Tribute page</h3>
-		              <a href="http://codepen.io/mar-bi/full/pRBPaL/" target="_blank" class="page-preview"> 
+		              <a href="http://codepen.io/mar-bi/full/pRBPaL/" target="_blank" class="page-preview">
 		                <img src="img/tribute_page.jpg" alt="Tribute page of Maryna Viazovska">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">My first front-end project - a single page dedicated to Ukrainian mathematician Dr. Maryna Viazovska.</p>
+		                <p class="text-center proj-description">
+                      My first front-end project - a single page dedicated to Ukrainian
+                      mathematician Dr. Maryna Viazovska.</p>
 		                <p class="text-center techno-tools">HTML5, CSS3, RWD</p>
-		                <a href="http://codepen.io/mar-bi/full/pRBPaL/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="http://codepen.io/mar-bi/full/pRBPaL/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-							
+
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Random Quote Machine</h3>
-		              <a href="http://codepen.io/mar-bi/full/RpMqRv/" target="_blank" class="page-preview"> 
+		              <a href="http://codepen.io/mar-bi/full/RpMqRv/" target="_blank" class="page-preview">
 		                <img src="img/random_quote.jpg" alt="Random Quote Application">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Random Quote Generator with an option to send the quote directly to Twitter.</p>
+		                <p class="text-center proj-description">
+                      Random Quote Generator with an option to send the quote directly to Twitter.</p>
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, JSON</p>
-		                <a href="http://codepen.io/mar-bi/full/RpMqRv/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="http://codepen.io/mar-bi/full/RpMqRv/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-		          
+
 
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Local Weather App</h3>
-		              <a href="https://mar-bi.github.io/WeatherApp/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/WeatherApp/" target="_blank" class="page-preview">
 		                <img src="img/weather_app.jpg" alt="Local Weather Appliction">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Displays the user's local weather using a weather API. The user's location is estimated from user's IP. The background picture changes according to the temperature data.</p>
+		                <p class="text-center proj-description">
+                      Displays the user's local weather using a weather API.
+                      The user's location is estimated from user's IP.
+                      The background picture changes according to the temperature data.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, CSS3, Flexbox, JavaScript, jQuery, Ajax, RWD</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/WeatherApp">View source on Github</a></p>
-		                
-		                <a href="https://mar-bi.github.io/WeatherApp/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/WeatherApp">View source on Github</a></p>
+
+		                <a href="https://mar-bi.github.io/WeatherApp/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-							
+
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Wikipedia Viewer</h3>
-		              <a href="http://codepen.io/mar-bi/full/MpRGZP/" target="_blank" class="page-preview"> 
+		              <a href="http://codepen.io/mar-bi/full/MpRGZP/" target="_blank" class="page-preview">
 		                <img src="img/wiki_viewer.jpg" alt="Wikipedia viewer">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Simple and elegant Wikipedia viewer with search function. Displays up to 10 results.  </p>
+		                <p class="text-center proj-description">
+                      Simple and elegant Wikipedia viewer with search function. Displays up to 10 results.</p>
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, jQuery, Ajax, RWD</p>
-		                <a href="http://codepen.io/mar-bi/full/MpRGZP/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="http://codepen.io/mar-bi/full/MpRGZP/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-		         
+
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">TwitchTV Project</h3>
-		              <a href="https://mar-bi.github.io/TwitchTV/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/TwitchTV/" target="_blank" class="page-preview">
 		                <img src="img/twitchTV.jpg" alt="TwitchTV project">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Displays the current status (online, offline) of the selected TwitchTV streamers and the detailed information about active streams. Allows to filter the streamers by the status and make a search for a particular stream.</p>
+		                <p class="text-center proj-description">
+                      Displays the current status (online, offline) of the selected TwitchTV streamers
+                      and the detailed information about active streams. Allows to filter the streamers
+                      by the status and make a search for a particular stream.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, jQuery, Ajax, RWD</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/TwitchTV">View source on Github</a> </p>
-		                
-		                <a href="https://mar-bi.github.io/TwitchTV/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/TwitchTV">View source on Github</a>
+                    </p>
+
+		                <a href="https://mar-bi.github.io/TwitchTV/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -174,17 +199,21 @@
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">JavaScript Calculator</h3>
-		              <a href="https://mar-bi.github.io/CalculatorJS/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/CalculatorJS/" target="_blank" class="page-preview">
 		                <img src="img/calculator.jpg" alt="JavaScript Calculator">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">A shiny calculator with standard operations and simple Math functions.</p>
+		                <p class="text-center proj-description">
+                      A shiny calculator with standard operations and simple Math functions.</p>
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, jQuery, RWD</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/CalculatorJS">View source on Github</a> </p>
-		                
-		                <a href="https://mar-bi.github.io/CalculatorJS/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/CalculatorJS" target="_blank">View source on Github</a>
+                    </p>
+
+		                <a href="https://mar-bi.github.io/CalculatorJS/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -192,58 +221,79 @@
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Pomodoro Timer</h3>
-		              <a href="https://mar-bi.github.io/pomodoro-timer/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/pomodoro-timer/" target="_blank" class="page-preview">
 		                <img src="img/pomodoro.jpg" alt="Pomodoro Timer">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-										<p class="text-center proj-description">A nice and easy-to-use pomodoro timer with an adjustable length of the session and the break between sessions. Enhanced by the addition of "pause" and "reset" buttons.</p>					
-				
+										<p class="text-center proj-description">
+                      A nice and easy-to-use pomodoro timer with an adjustable length of the
+                      session and the break between sessions.
+                      Enhanced by the addition of "pause" and "reset" buttons.
+                    </p>
+
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, jQuery, RWD</p>
-										<p class="text-center techno-tools"><a href="https://github.com/mar-bi/pomodoro-timer">View source on Github</a> </p>
-		                
-		                <a href="https://mar-bi.github.io/pomodoro-timer/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+										<p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/pomodoro-timer" target="_blank">View source on Github</a>
+                    </p>
+
+		                <a href="https://mar-bi.github.io/pomodoro-timer/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-							
+
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Tic Tac Toe Game</h3>
-		              <a href="https://mar-bi.github.io/tictactoe/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/tictactoe/" target="_blank" class="page-preview">
 		                <img src="img/tictactoe.jpg" alt="Tic Tac Toe Game">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">A classical and funny Tic Tac Toe game (also known as XO game). Just choose your character and have fun! Beware of a computer artificial intelligence! It will beat you most of times!</p>
+		                <p class="text-center proj-description">
+                      A classical and funny Tic Tac Toe game (also known as XO game).
+                      Just choose your character and have fun! Beware of a computer artificial intelligence!
+                      It will beat you most of times!
+                    </p>
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, jQuery, RWD</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/tictactoe">View source on Github</a> </p>
-		                <a href="https://mar-bi.github.io/tictactoe/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/tictactoe/" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/tictactoe/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-							
+
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Simon Game</h3>
-		              <a href="https://mar-bi.github.io/simongame/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/simongame/" target="_blank" class="page-preview">
 		                <img src="img/simon.jpg" alt="Simon Game">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">A fresh remake of classical Simon Game. The gameplay has 2 modes (normal and strict, where player should start from the beginning in case of a mistake). If you repeat a melody correctly for all 20 steps, you will win. </p>
+		                <p class="text-center proj-description">
+                      A fresh remake of classical Simon Game. The gameplay has 2 modes
+                      (normal and strict, where player should start from the beginning in case of a mistake).
+                      If you repeat a melody correctly for all 20 steps, you will win.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, CSS3, JavaScript, jQuery, RWD</p>
-										<p class="text-center techno-tools"><a href="https://github.com/mar-bi/simongame">View source on Github</a> </p>
-		                <a href="https://mar-bi.github.io/simongame/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+										<p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/simongame" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/simongame/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
 		       	</div>
 		    	</div>
-		    </div>	
+		    </div>
 
 				<div id="react" class="row tab-pane fade">
 					<div class="col-xs-12">
@@ -254,15 +304,19 @@
 		        	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Markdown Previewer</h3>
-		              <a href="https://codepen.io/mar-bi/full/XgBYeE/" target="_blank" class="page-preview"> 
+		              <a href="https://codepen.io/mar-bi/full/XgBYeE/" target="_blank" class="page-preview">
 		                <img src="img/markdown.jpg" alt="Markdown Previewer">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">A simple previewer of Markdown language. Just type markdown in one box and see the output in another.</p>
+		                <p class="text-center proj-description">
+                      A simple previewer of Markdown language. Just type markdown in
+                      one box and see the output in another.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, Sass, ReactJS, Markdown, Marked.JS, RWD</p>
-		                <a href="https://codepen.io/mar-bi/full/XgBYeE/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="https://codepen.io/mar-bi/full/XgBYeE/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -270,16 +324,23 @@
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">FCC Campers Leaderboard</h3>
-		              <a href="https://serene-ocean-19499.herokuapp.com/" target="_blank" class="page-preview"> 
+		              <a href="https://serene-ocean-19499.herokuapp.com/" target="_blank" class="page-preview">
 		                <img src="img/leaderboard.jpg" alt="Campers Leaderboard">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Displays a table of 100 FCC students who get the biggest amount of brownie points during last 30 days. Can be easily switched to display the 100 students with a biggest progress from all the time.</p>
+		                <p class="text-center proj-description">
+                      Displays a table of 100 FCC students who get the biggest amount
+                      of brownie points during last 30 days. Can be easily switched to
+                      display the 100 students with a biggest progress from all the time.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, Sass, ReactJS, Axios.JS, Node.JS, Babel, Webpack, RWD</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/camp_leaderboard">View source on Github</a> </p>
-		                <a href="https://serene-ocean-19499.herokuapp.com/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/camp_leaderboard" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://serene-ocean-19499.herokuapp.com/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -287,16 +348,19 @@
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Recipe Box</h3>
-		              <a href="https://codepen.io/mar-bi/full/vZvqoo/" target="_blank" class="page-preview"> 
+		              <a href="https://codepen.io/mar-bi/full/vZvqoo/" target="_blank" class="page-preview">
 		                <img src="img/recipebox.jpg" alt="Recipe Box">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
 		                <p class="text-center proj-description">A stunning Recipe Book.
-		                It displays, adds, deletes, and edits recipes. Start with two my favorite recipes and add yours.</p>
+  		                It displays, adds, deletes, and edits recipes. Start with two my
+                      favorite recipes and add yours.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, Sass, ReactJS, React-Bootstrap, RWD</p>
-		                <a href="https://codepen.io/mar-bi/full/vZvqoo/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="https://codepen.io/mar-bi/full/vZvqoo/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -304,16 +368,23 @@
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Game of Life</h3>
-		              <a href="https://hidden-meadow-91187.herokuapp.com/" target="_blank" class="page-preview"> 
+		              <a href="https://hidden-meadow-91187.herokuapp.com/" target="_blank" class="page-preview">
 		                <img src="img/gameoflife.jpg" alt="Game of Life">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Classical one-player-game created by John Convey, an example of a simple cellular automaton. Get a random pattern of live cells or draw your own and see how they will evolve.</p>
+		                <p class="text-center proj-description">
+                      Classical one-player-game created by John Convey, an example
+                      of a simple cellular automaton. Get a random pattern of live cells
+                      or draw your own and see how they will evolve.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, Sass, ReactJS, Babel, Webpack, NodeJS, RWD</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/game-of-life">View source on Github</a> </p>
-		                <a href="https://hidden-meadow-91187.herokuapp.com/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/game-of-life" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://hidden-meadow-91187.herokuapp.com/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -321,16 +392,22 @@
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 									<h3 class="text-center">Dungeon Crawler Game</h3>
-		              <a href="https://guarded-shelf-25889.herokuapp.com/" target="_blank" class="page-preview"> 
+		              <a href="https://guarded-shelf-25889.herokuapp.com/" target="_blank" class="page-preview">
 		                <img src="img/dungeon.jpg" alt="Dungeon Crawler Game">
 		              </a>
 		              <div class="caption">
-										
+
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">Simple Rouguelike Dungeon Crawler Game. Kill enemies, pick up health and weapons, move through portals, and try to reach the Boss at Dungeon #3.</p>
+		                <p class="text-center proj-description">
+                      Simple Rouguelike Dungeon Crawler Game. Kill enemies, pick up health
+                      and weapons, move through portals, and try to reach the Boss at Dungeon #3.
+                    </p>
 		                <p class="text-center techno-tools">HTML5, Sass, ReactJS, Babel, Webpack, NodeJS</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/DungeonCrawlerGame">View source on Github</a> </p>
-		                <a href="https://guarded-shelf-25889.herokuapp.com/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/DungeonCrawlerGame" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://guarded-shelf-25889.herokuapp.com/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -343,31 +420,37 @@
 		      <div class="col">
 		        <h3 class="text-center proj-heading d3-viz">D3 projects</h3>
 		        <h4 class="text-center proj-viz">Data Visualization using D3.js</h4>
-		        
+
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail thumb-viz">
 		            	<h3 class="text-center">Bar Chart of GDP, USA</h3>
-		              <a href="https://mar-bi.github.io/barChartD3/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/barChartD3/" target="_blank" class="page-preview">
 		                <img src="img/barchart.jpg" alt="Bar Chart">
 		              </a>
 		              <div class="caption">
 		                <p class="text-center techno-tools">HTML5, SASS, D3</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/barChartD3">View source on Github</a></p>
-		                <a href="https://mar-bi.github.io/barChartD3/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/barChartD3" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/barChartD3/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-							
+
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail thumb-viz">
 		            	<h3 class="text-center">Scatterplot of Bicycle Racing </h3>
-		              <a href="https://mar-bi.github.io/CyclistScatterplotD3/index.html/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/CyclistScatterplotD3/index.html/" target="_blank" class="page-preview">
 		                <img src="img/scatterplot.jpg" alt="Scatterplot">
 		              </a>
 		              <div class="caption">
 		                <p class="text-center techno-tools">HTML5, SASS, D3</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/CyclistScatterplotD3">View source on Github</a> </p>
-		                <a href="https://mar-bi.github.io/CyclistScatterplotD3/index.html/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/CyclistScatterplotD3" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/CyclistScatterplotD3/index.html/"
+                    target="_blank" class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -375,13 +458,16 @@
 		           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail thumb-viz">
 		            	<h3 class="text-center">Heat Map</h3>
-		              <a href="https://mar-bi.github.io/HeatMapD3/index.html" target="_blank" class="page-preview"> 
-		                <img src="img/heatmap.jpg" alt="Bar Chart">
+		              <a href="https://mar-bi.github.io/HeatMapD3/index.html" target="_blank" class="page-preview">
+		                <img src="img/heatmap.jpg" alt="Heat Map">
 		              </a>
 		              <div class="caption">
 		                <p class="text-center techno-tools">HTML5, SASS, D3</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/HeatMapD3">View source on Github</a></p>
-		                <a href="https://mar-bi.github.io/HeatMapD3/index.html" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/HeatMapD3" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/HeatMapD3/index.html" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -389,13 +475,16 @@
 		           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail thumb-viz">
 		            	<h3 class="text-center">National Contiguity Graph</h3>
-		              <a href="https://mar-bi.github.io/ContiguityForceD3/index.html" target="_blank" class="page-preview"> 
-		                <img src="img/forcegraph.jpg" alt="Bar Chart">
+		              <a href="https://mar-bi.github.io/ContiguityForceD3/index.html" target="_blank" class="page-preview">
+		                <img src="img/forcegraph.jpg" alt="Force Directed Graph">
 		              </a>
 		              <div class="caption">
 		                <p class="text-center techno-tools">HTML5, SASS, D3</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/ContiguityForceD3">View source on Github</a></p>
-		                <a href="https://mar-bi.github.io/ContiguityForceD3/index.html" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/ContiguityForceD3" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/ContiguityForceD3/index.html"
+                    target="_blank" class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -403,35 +492,133 @@
 		           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail thumb-viz">
 		            	<h3 class="text-center">Map of Meteorite Landings</h3>
-		              <a href="https://mar-bi.github.io/mapMeteoritesD3/" target="_blank" class="page-preview"> 
+		              <a href="https://mar-bi.github.io/mapMeteoritesD3/" target="_blank" class="page-preview">
 		                <img src="img/meteorites.jpg" alt="Map of Mereorite Landings">
 		              </a>
 		              <div class="caption">
 		                <p class="text-center techno-tools">HTML5, SASS, D3</p>
-		                <p class="text-center techno-tools"><a href="https://github.com/mar-bi/mapMeteoritesD3">View source on Github</a></p>
-		                <a href="https://mar-bi.github.io/mapMeteoritesD3/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/mapMeteoritesD3" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://mar-bi.github.io/mapMeteoritesD3/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
-		         
+
 		      </div>
 		    </div>
+
+
+        <div id="microservices" class="row tab-pane fade">
+		      <div class="col">
+		        <h3 class="text-center proj-heading d3-viz">Microservices</h3>
+		        <h4 class="text-center proj-micro">Microservices using Node.js</h4>
+
+		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		            <div class="thumbnail thumb-micro">
+		            	<h3 class="text-center">Timestamp Microservice</h3>
+		              <a href="https://stitch-zoo.glitch.me/" target="_blank" class="page-preview">
+		                <img src="img/time_stamp.jpg" alt="Timestamp Microservice">
+		              </a>
+		              <div class="caption">
+		                <p class="text-center techno-tools">HTML5, CSS, Node, Express</p>
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/timestamp-micro" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://stitch-zoo.glitch.me/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
+		              </div>
+		            </div>
+		          </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		            <div class="thumbnail thumb-micro">
+		            	<h3 class="text-center">Request Header Parser</h3>
+		              <a href="https://apricot-piper.glitch.me/api/whoami/" target="_blank" class="page-preview">
+		                <img src="img/bricks.jpg" alt="Header Parser">
+		              </a>
+		              <div class="caption">
+		                <p class="text-center techno-tools">Node, Express</p>
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/header-parser" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://apricot-piper.glitch.me/api/whoami/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
+		              </div>
+		            </div>
+		          </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		            <div class="thumbnail thumb-micro">
+		            	<h3 class="text-center">URL Shortener Microservice</h3>
+		              <a href="https://alert-punishment.glitch.me/" target="_blank" class="page-preview">
+		                <img src="img/url_shortener.jpg" alt="Url Shortener Microservice">
+		              </a>
+		              <div class="caption">
+		                <p class="text-center techno-tools">HTML5, CSS, Node, Express, MongoDB</p>
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/url-shortener" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://alert-punishment.glitch.me" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
+		              </div>
+		            </div>
+		          </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		            <div class="thumbnail thumb-micro">
+		            	<h3 class="text-center">Image Searcher Microservice</h3>
+		              <a href="https://azure-mile.glitch.me/" target="_blank" class="page-preview">
+		                <img src="img/image_searcher.jpg" alt="Image Searcher Microservice">
+		              </a>
+		              <div class="caption">
+		                <p class="text-center techno-tools">HTML5, CSS, Axios, Node, Express, MongoDB</p>
+		                <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/image-searcher" target="_blank">View source on Github</a>
+                    </p>
+		                <a href="https://azure-mile.glitch.me/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
+		              </div>
+		            </div>
+		          </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="thumbnail thumb-micro">
+                  <h3 class="text-center">File Metadata Microservice</h3>
+                  <a href="https://puffy-roarer.glitch.me/" target="_blank" class="page-preview">
+                    <img src="img/file_metadata.jpg" alt="File Metadata Microservice">
+                  </a>
+                  <div class="caption">
+                    <p class="text-center techno-tools">HTML5, CSS, Node, Express, Multer</p>
+                    <p class="text-center techno-tools">
+                      <a href="https://github.com/mar-bi/file-metadata" target="_blank">View source on Github</a></p>
+                    <a href="https://puffy-roarer.glitch.me/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
+                  </div>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
 
 				<div id="industrial" class="row tab-pane fade">
 		      <div class="col">
 		        <h3 class="text-center proj-heading">Industrial projects</h3>
-		        
+
 		          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 		            <div class="thumbnail">
 		            	<h3 class="text-center">Landing page</h3>
-		              <a href="http://dcmaterik.com/" target="_blank" class="page-preview"> 
+		              <a href="http://dcmaterik.com/" target="_blank" class="page-preview">
 		                <img src="img/dmateric-prev.png" alt="Preview of web page http://dcmaterik.com/">
 		              </a>
 		              <div class="caption">
 		                <h3 class="text-center">Short description</h3>
 		                <p class="text-center proj-description">HTML mockup from PSD file</p>
 		                <p class="text-center techno-tools">HTML5, CSS3, RWD</p>
-		                <a href="http://dcmaterik.com/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="http://dcmaterik.com/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
 		            </div>
 		          </div>
@@ -444,18 +631,20 @@
 		              </a>
 		              <div class="caption">
 		                <h3 class="text-center">Short description</h3>
-		                <p class="text-center proj-description">HTML mockup from PSD files (5 pages), custom form elements, scrolls, buttons</p>
+		                <p class="text-center proj-description">HTML mockup from PSD files (5 pages),
+                      custom form elements, scrolls, buttons</p>
 		                <p class="text-center techno-tools">HTML5, CSS3, Bootstrap, JavaScript, jQuery, RWD</p>
-		                <a href="http://www.eco-solaris.net.ua/" target="_blank" class="btn btn-default go-page" role="button">View</a>                
+		                <a href="http://www.eco-solaris.net.ua/" target="_blank"
+                    class="btn btn-default go-page" role="button">View</a>
 		              </div>
-		            </div>  
+		            </div>
 		          </div>
 		      </div>
 		    </div>
 		  </div>
 
-	  </section>  
-	  
+	  </section>
+
 	</div>
 
 	<footer class="container-fluid" id="footer-main">
@@ -472,16 +661,16 @@
           <a class="btn social" href="https://github.com/mar-bi" target="_blank">
             <img src="img/github.png" alt="View my Github profile"/>
           </a>
-                      
+
         </div>
       </div>
     </div>
   </footer>
-  
+
   <!-- link for j-query here -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- link for javascript here --> 
+  <!-- link for javascript here -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
