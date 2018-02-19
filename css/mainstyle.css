@@ -1,8 +1,14 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background: #333333 url("../img/bg_golden.jpg");
   padding-top: 70px;
   font-family: Helvetica, sans-serif;
-  }
+  margin-bottom: 90px;
+}
 
 a {
   color: #e57c22;
@@ -270,6 +276,10 @@ a.go-page {
 
 /* FOOTER */
 #footer-main {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 74px;
   background-color: #333;
 }
 
