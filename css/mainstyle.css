@@ -310,6 +310,11 @@ footer img {
   font-size: 1.4em;
 }
 
+.pdf-link {
+  font-size: 1.125em;
+  color: #cd6600;
+}
+
 #cv-photo {
   width: 200px;
   margin: 15px auto;
@@ -383,6 +388,12 @@ div.progress-row:last-child {
 .w-title {
   font-weight: 400;
   font-size: 1.1em;
+}
+
+.w-date {
+  font-size: 1em !important;
+  font-style: italic;
+  text-align: right;
 }
 
 .e-title {
@@ -489,6 +500,10 @@ canvas {
   }
 
   .cv-about h1, .cv-about h4 {
+    text-align: center;
+  }
+
+  .pdf-link-title{
     text-align: center;
   }
 
