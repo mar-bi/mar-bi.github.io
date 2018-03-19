@@ -184,7 +184,7 @@ a.thumbnail {
 }
 
 div.thumbnail {
-  height: 490px;
+  height: 450px;
   background-color: #f4f7fa;
 }
 
@@ -236,11 +236,10 @@ a.go-page {
   filter: brightness(75%);
 }
 
-.caption h3 {
-  margin: 8px 0;
-  font-size: 1.3em;
-  font-weight: bold;
+.proj-desc-container {
+  padding-top: 1.5em !important;
 }
+
 
 .proj-description {
   font-size: 1em;
