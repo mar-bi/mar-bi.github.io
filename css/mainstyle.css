@@ -340,35 +340,20 @@ footer img {
 .cv-body-header {
   color: #5bc0de;
 }
-.personal-table {
-  width: 80%;
-  margin: 10px 5px;
-}
-.t-title {
-  font-weight: bold;
-}
-.progress {
-  display: inline-block;
-  width: 60%;
-  vertical-align: bottom;
-  margin: 10px 0;
-}
 
-.progress-row {
-  width: 85%;
-}
-
-div.progress-row:last-child {
-  margin-bottom: 1em;
-}
-
-.progress-item {
-  display: inline-block;
-  width: 30%;
-  margin-left: 10px;
-  margin-right: 10px;
+.cv-body-description{
+  color: #e57c22;
   font-size: 1em;
   font-weight: 600;
+}
+
+.personal-table {
+  width: 90%;
+  margin: 10px 5px;
+}
+
+.t-title {
+  font-weight: bold;
 }
 
 .body-right {
