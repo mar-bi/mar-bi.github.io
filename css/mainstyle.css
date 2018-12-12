@@ -291,6 +291,17 @@ div.thumb-micro {
   padding: 0 8px;
 }
 
+.portfolio-link {
+  color: #0C3E6A; /* #662C00; */
+}
+
+.active-portfolio-link {
+  color: #222;
+}
+
+.active {
+  color: #222;
+}
 /*=========================CV PAGE=============================*/
 .cv-about {
   background-color: rgba(107, 206, 228, 0.8);
@@ -394,7 +405,7 @@ div.thumb-micro {
 }
 
 .certificlates-list {
-  margin: 0.5em;
+  margin: 0.5em 0.5em 2.5em 0.5em;
   list-style: none;
 }
 
