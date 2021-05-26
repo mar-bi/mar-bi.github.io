@@ -31,13 +31,13 @@ a:focus {
   /* box-shadow: 0 0 8px 3px rgba(34, 139, 229, 0.8); */
 }
 
-a:-moz-focusring {
+a:-moz-focusing {
   outline: 1px solid rgba(34, 139, 229, 0.8);
 }
 
 .header-title {
-  text-transform: lowercase;
-  font-weight: bold;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
 /*========================= JUMBO BLOCK======================= */
@@ -59,17 +59,13 @@ a:-moz-focusring {
   color: #111111;
 }
 
-.glyphicon-jumbo {
-  margin-right: 0.5em;
-}
-
 .jumbo-title {
   text-transform: uppercase;
 }
 
-.social-buttons1 {
-  margin: 0 auto;
-  text-align: center;
+.social-buttons_jumbo {
+  display: flex;
+  justify-content: center;
 }
 
 .social img:hover {
@@ -77,7 +73,7 @@ a:-moz-focusring {
   filter: opacity(50%);
 }
 
-/* genaral style for all sections */
+/* general style for all sections */
 .section-main {
   margin-top: 1rem;
   margin-bottom: 1.2rem;
@@ -160,21 +156,12 @@ a.thumbnail {
   margin-top: 10px;
 }
 
+a.thumbnail > img {
+  max-height: 250px;
+}
+
 .thumbnail:hover {
   filter: brightness(75%);
-}
-
-/*======================= GET IN TOUCH BLOCK================== */
-.contact-info,
-.signature {
-  font-size: 1.2em;
-  font-style: italic;
-}
-
-.signature {
-  font-family: "Annie Use Your Telescope", cursive;
-  font-weight: bold;
-  font-size: 1.8em;
 }
 
 /*========================= FOOTER============================ */
@@ -182,7 +169,7 @@ a.thumbnail {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 95px;
+  height: 90px;
   background-color: #333;
 }
 
@@ -199,26 +186,9 @@ footer img {
 }
 
 /*==================== Portfolio page========================= */
-.breadcrumb {
-  background: none;
-  margin-bottom: 10px;
-}
-
-.breadcrumb > .active {
-  color: #666;
-}
-
-.breadcrumb > li + li::before {
-  color: #666;
-}
-
 div.thumbnail {
   height: 450px;
   background-color: #f4f7fa;
-}
-
-.commercial-thumb {
-  height: 440px;
 }
 
 .thumb-title {
@@ -292,7 +262,7 @@ div.thumb-micro {
 }
 
 .portfolio-link {
-  color: #0C3E6A; /* #662C00; */
+  color: #0c3e6a; /* #662C00; */
 }
 
 .active-portfolio-link {
@@ -302,122 +272,6 @@ div.thumb-micro {
 .active {
   color: #222;
 }
-/*=========================CV PAGE=============================*/
-.cv-about {
-  background-color: rgba(107, 206, 228, 0.8);
-}
-
-.cv-about-title {
-  margin-top: 1.2em;
-  font-size: 3em;
-}
-
-.cv-about-position {
-  font-size: 1.4em;
-}
-
-.pdf-link {
-  font-size: 1.125em;
-  color: #cd6600;
-}
-
-.cv-photo {
-  width: 200px;
-  margin: 15px auto;
-}
-
-.cv-intro {
-  background-color: rgba(76, 76, 76, 1);
-  color: #fff;
-  padding: 8px;
-}
-
-.cv-summary {
-  font-size: 1.5em;
-  font-style: italic;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.cv-body {
-  box-sizing: border-box;
-  background-color: #fff;
-  padding: 0 20px;
-  margin-bottom: 20px;
-}
-
-.cv-body-header {
-  color: #5bc0de;
-}
-
-.cv-body-description {
-  color: #e57c22;
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.personal-table {
-  width: 90%;
-  margin: 10px 5px;
-}
-
-.t-title {
-  font-weight: bold;
-}
-
-.body-right {
-  padding-left: 35px;
-  box-shadow: 9px 0 5px -2px grey inset;
-}
-
-.work-table,
-.educ-table {
-  width: 90%;
-  margin-left: 1em;
-}
-
-.work-table td,
-.educ-table td {
-  font-size: 1em;
-  vertical-align: baseline;
-}
-
-.w-title {
-  font-weight: 400;
-  font-size: 1em;
-}
-
-.w-date {
-  font-size: 1em !important;
-  font-style: italic;
-  text-align: right;
-}
-
-.e-title {
-  font-weight: 600;
-  font-size: 1.1em;
-}
-
-.s-title {
-  font-size: 1em;
-  font-weight: 600;
-  text-align: center;
-}
-
-.certificlates-list {
-  margin: 0.5em 0.5em 2.5em 0.5em;
-  list-style: none;
-}
-
-.certificates-item {
-  margin: 0.25em 0;
-}
-
-.certificates-link {
-  padding: 0.5em 0.5em 0.5em 0;
-  font-size: 1.1em;
-}
-
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .progress-row {
@@ -439,21 +293,15 @@ div.thumb-micro {
   }
 }
 
-
 @media screen and (min-width: 981px) and (max-width: 1200px) {
   .main-text p {
     font-size: 0.9em;
   }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 980px) {
   div.thumbnail {
     height: 460px;
-  }
-
-  div.commercial-thumb {
-    height: 450px;
   }
 
   div.thumb-viz,
@@ -466,14 +314,12 @@ div.thumb-micro {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   div.thumbnail,
   a.thumbnail {
     margin: 1em auto;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .my-photo {
@@ -499,47 +345,16 @@ div.thumb-micro {
     max-width: 340px;
   }
 
-  .cv-about-title {
-    margin-top: 10px;
-    font-size: 2.5em;
-  }
-
-  .cv-summary {
-    font-size: 1.1em;
-    margin: 10px 0;
-  }
-
-  .cv-about-title,
-  .cv-about-position {
-    text-align: center;
-  }
-
-  .pdf-link-title {
-    text-align: center;
-  }
-
-  .personal-table {
-    width: 98%;
-  }
-
-  .progress-row {
-    width: 100%;
-  }
-
-  .progress-item {
-    width: 30%;
-  }
-
-  .body-right {
-    padding-left: 15px;
-    box-shadow: none;
-  }
-
   .nav-tabs > li > a {
     font-size: 1em;
   }
 
   div.thumb-micro {
     height: auto;
+  }
+
+  .navbar-text {
+    display: block;
+    margin-left: 15px;
   }
 }
